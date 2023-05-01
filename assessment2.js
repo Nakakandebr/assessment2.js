@@ -103,7 +103,7 @@ if( i in books){
 
 else{
 
-    return (`the {book} is not available`)
+    return (`the {book} is available`)
 }
 }
  
@@ -119,10 +119,31 @@ console.log(checkoutBook(title))
 // // book's isAvailable property to true. If the book is not found in the library, the function
 // // should return a message indicating that the book does not belong to the library.
 function returnBook(title){
+for (let i=0; i.title<length; i++){
 
-
+    if( i in books){
+        return true
+    }
     
-}
+    else{
+    
+        return (`the {book} is not available`)
+    }
+    }
+     
+    
+    
+    
+    }
+    
+    console.log(checkoutBook(title))
+    
+    
+
+
+
+
+
 
 
 
