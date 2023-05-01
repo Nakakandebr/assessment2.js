@@ -13,17 +13,21 @@
 // Write a JavaScript program that performs the following tasks:
 // 1. Create a function called getAvailableBooks that returns an array of all available
 // books.
-function getAvailableBooks(books){
-for(let i=0; i.books<length; i++){
 
-return (`Title:${this.title} ,Author:${this.author},PublicationYear:${this.publicationYear},IsAvailable:${this.isAvailable}`)
-
-    
+function getAvailableBooks(){
+    const allBooks = [];
+    for(let i = 0; i < books.length; i++){
+        return  allBooks.push(books.title[i]);
+    }
+    return allBooks.length
 }
+console.log(getAvailableBooks());
 
 
 
-}
+
+
+
 
 const books = [
 { title: 'The Catcher in the Rye', author: 'J.D. Salinger', publicationYear: 1951,
@@ -43,15 +47,13 @@ console.log(getAvailableBooks.books)
 
 
 // // 2. Create a function getBooksByAuthor that takes an author's name as an argument and
-function getBooksByAuthor(books){
-
-    for(let i=0; i.books<length; i++){
-     return books[i].author
-    
-    
-    }
-    
+function getBooksByAuthor(author){
+    authorList = {};
+    const filterAuthor = books.forEach(book => {
+        return authorList.push[books.author] = [books.title]
+    });
 }
+console.log(getBooksByAuthor());
   
     
 //     }
@@ -139,19 +141,4 @@ for (let i=0; i.title<length; i++){
     console.log(checkoutBook(title))
     
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
